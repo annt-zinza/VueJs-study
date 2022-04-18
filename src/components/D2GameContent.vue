@@ -15,7 +15,7 @@
       <div class="result">
         <p class="result-status">{{ resultStatus }}</p>
         <p class="score">Số điểm: {{ ballBreaks }}</p>
-        <p class="currentTime">Thời gian: {{ currentTime }}</p>
+        <p class="current-time">Thời gian: {{ currentTime }}</p>
         <button class="btn-start" @click="startGame">Bắt đầu</button>
       </div>
     </div>
