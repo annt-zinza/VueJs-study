@@ -22,6 +22,11 @@ const routes = [
     path: '/d2-game',
     name: 'd2-game',
     component: () => import('../views/D2GameView.vue')
+  },
+  {
+    path: '/todo-app',
+    name: 'todo-app',
+    component: () => import('../views/TodoAppView.vue')
   }
 ]
 
