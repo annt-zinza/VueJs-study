@@ -89,6 +89,7 @@ export default {
 .d2-game-content {
   border: indianred solid 2px;
   background-color: goldenrod;
+  text-align: center;
 
   .play-area {
     height: 600px;
